@@ -18,4 +18,4 @@ const renderImages = galleryItems
 galleryRef.innerHTML = '';
 galleryRef.insertAdjacentHTML('beforeend', renderImages);
 
-const lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
+let gallery = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
